@@ -334,6 +334,7 @@ class Crawler():
         
 def main():
     crawler = Crawler()
+    crawler.login()
     crawler.updateAllCoursesInfo()
     crawler.getHtmlFormatSchedule()
 
